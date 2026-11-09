@@ -1,0 +1,2 @@
+# Lightweight dependencies for the public-tree checks.
+pyyaml

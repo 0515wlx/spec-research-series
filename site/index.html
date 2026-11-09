@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Speculative Decoding Audit Series</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Research series</p>
+      <h1>Speculative Decoding Audit Series</h1>
+      <p class="lede">
+        Reproducible audits on speculative decoding: where the acceptance floor comes from, which
+        compression operators clear it, and what the measured serving cost actually is.
+      </p>
+      <p class="links">
+        <a href="https://github.com/0515wlx/spec-research/blob/main/series/s01-rejection-no-go/draft.pdf">Latest draft (PDF)</a>
+        <a href="https://github.com/0515wlx/spec-research">GitHub</a>
+        <a href="https://github.com/0515wlx/spec-research/tree/main/series">Series index</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>Studies</h2>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Study</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>S01</td><td>Rejection-layer no-go for post-hoc FFN width deletion</td><td><code>drafting</code></td></tr>
+          <tr><td>S02</td><td>Measured cost of post-hoc FFN width deletion</td><td><code>preparation</code></td></tr>
+          <tr><td>S03</td><td>Decision-boundary mechanism and margin-mass screening</td><td><code>preparation</code></td></tr>
+          <tr><td>S04</td><td>Positive operators, adaptation, matched-latency drafts</td><td><code>preparation</code></td></tr>
+          <tr><td>S05</td><td>Reproducible acceptance/cost benchmark and leaderboard</td><td><code>preparation</code></td></tr>
+        </tbody>
+      </table>
+      <p class="note">
+        Status vocabulary: <code>preparation</code> · <code>drafting</code> · <code>stable</code> ·
+        <code>revision</code> · <code>archived</code>.
+      </p>
+    </section>
+
+    <section>
+      <h2>What is here</h2>
+      <ul>
+        <li>Neutral draft PDFs and public claim tables.</li>
+        <li>Acceptance / distribution-shift measurement pipeline.</li>
+        <li>Controlled distillation and serving recipes.</li>
+        <li>Small result summaries and a release-based priority record.</li>
+      </ul>
+      <p class="note">
+        The LaTeX source, review harness, and submission workflow are maintained privately.
+      </p>
+    </section>
+
+    <section>
+      <h2>Citation and artifacts</h2>
+      <p>
+        Use <code>CITATION.cff</code> for the software release and cite the specific study for its
+        claims. The DOI is assigned on the first public release.
+      </p>
+    </section>
+
+    <footer>
+      <p>Lixuan Wei · Institute of Automation, Chinese Academy of Sciences</p>
+      <p>Code Apache-2.0 · Docs and drafts CC-BY-4.0</p>
+    </footer>
+  </main>
+</body>
+</html>

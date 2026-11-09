@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Model / training artifacts
+ckpt/
+out/
+logs/
+*.npz
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.parquet
+
+# Downloaded / processed data
+data/raw/
+data/processed/
+data/*.jsonl
+!data/README.md
+
+# LaTeX build products
+paper/build/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+
+# Caches
+.hf_cache/
+.cache/
+.hfd/
+
+# OS
+.DS_Store

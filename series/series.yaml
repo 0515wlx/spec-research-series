@@ -1,0 +1,58 @@
+series:
+  name: Speculative Decoding Audit Series
+  tagline: 'A series of reproducible audits on speculative decoding: where the acceptance
+    floor comes from, which compression operators clear it, and what the measured
+    serving cost actually is.'
+  updated: 2026-11-09
+  status_legend:
+    preparation: Scope and claims are still being established.
+    drafting: Core claim is closed; manuscript is in progress.
+    stable: Frozen public draft.
+    revision: Revised draft in progress.
+    archived: Retired or superseded.
+studies:
+- id: S01
+  slug: s01-rejection-no-go
+  title: Rejection-Layer No-Go for Post-Hoc FFN Width Deletion
+  status: drafting
+  version: 0.1.0
+  updated: 2026-11-09
+  draft: series/s01-rejection-no-go/draft.pdf
+  summary: series/s01-rejection-no-go/README.md
+  claims: series/s01-rejection-no-go/claims.md
+- id: S02
+  slug: s02-cost-layer
+  title: Measured Cost of Post-Hoc FFN Width Deletion
+  status: preparation
+  version: 0.0.0
+  updated: 2026-11-09
+  draft: null
+  summary: series/s02-cost-layer/README.md
+  claims: series/s02-cost-layer/claims.md
+- id: S03
+  slug: s03-mechanism-screen
+  title: Decision-Boundary Mechanism and Margin-Mass Screening
+  status: preparation
+  version: 0.0.0
+  updated: 2026-11-09
+  draft: null
+  summary: series/s03-mechanism-screen/README.md
+  claims: series/s03-mechanism-screen/claims.md
+- id: S04
+  slug: s04-positive-operators
+  title: Positive Operators, Adaptation, and Matched-Latency Drafts
+  status: preparation
+  version: 0.0.0
+  updated: 2026-11-09
+  draft: null
+  summary: series/s04-positive-operators/README.md
+  claims: series/s04-positive-operators/claims.md
+- id: S05
+  slug: s05-benchmark
+  title: A Reproducible Acceptance and Cost Benchmark for Speculative Decoding
+  status: preparation
+  version: 0.0.0
+  updated: 2026-11-09
+  draft: null
+  summary: series/s05-benchmark/README.md
+  claims: series/s05-benchmark/claims.md

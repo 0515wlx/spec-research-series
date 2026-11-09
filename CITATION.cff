@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or the audit results, please cite the series and the specific study."
+title: "Speculative Decoding Audit Series"
+abstract: >-
+  A public series of reproducible audits on speculative decoding: acceptance floors, compression
+  operators, and measured serving cost.
+authors:
+  - family-names: Wei
+    given-names: Lixuan
+    affiliation: "Institute of Automation, Chinese Academy of Sciences"
+version: 0.1.0
+date-released: 2026-11-09
+license: Apache-2.0
+repository-code: "https://github.com/0515wlx/spec-research"
+url: "https://github.com/0515wlx/spec-research"
+keywords:
+  - speculative decoding
+  - compression
+  - FFN width deletion
+  - LLM serving
+  - reproducibility
+preferred-citation:
+  type: generic
+  title: "Rejection-Layer No-Go for Post-Hoc FFN Width Deletion"
+  authors:
+    - family-names: Wei
+      given-names: Lixuan
+      affiliation: "Institute of Automation, Chinese Academy of Sciences"
+  year: 2026
+  notes: "Study S01 in the Speculative Decoding Audit Series; public draft."

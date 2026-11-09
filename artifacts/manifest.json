@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.2",
+  "release": "v0.1.0",
+  "generated": "2026-11-09",
+  "series": "series/series.yaml",
+  "studies": [
+    {
+      "id": "S01",
+      "status": "drafting",
+      "draft": "series/s01-rejection-no-go/draft.pdf",
+      "claims": "series/s01-rejection-no-go/claims.md"
+    }
+  ],
+  "public_artifacts": [
+    "series/",
+    "infra/",
+    "code/",
+    "configs/",
+    "scripts/",
+    "docs/",
+    "artifacts/",
+    "site/"
+  ],
+  "excluded_from_public": [
+    "paper/",
+    "out/",
+    "ckpt/",
+    "logs/",
+    ".hf_cache/",
+    "data/raw/",
+    "data/processed/",
+    "paper/reviews/rounds/",
+    "paper/reviews/REVIEW_RESPONSE_*.md",
+    "docs/REVIEW*",
+    "docs/REVISION*",
+    "docs/SELF_REVIEW.md",
+    "docs/SERIES_ROADMAP.md",
+    "docs/PAPER_ARCHITECTURE.md",
+    "docs/DECISIONS.md",
+    "docs/HARNESS.md",
+    "docs/PAPER_REVISION_PLAN2.md"
+  ],
+  "notes": "The public tree is a generated display layer. LaTeX source, venue manifests, review harness, and submission status stay private."
+}

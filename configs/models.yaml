@@ -1,0 +1,24 @@
+# Route A model registry (mirrors infra/model_registry.py)
+target: qwen3.5-35b-a3b
+fallback_target: qwen3.5-27b
+replication_target: qwen3.6-35b-a3b
+
+capacity_series:
+  - {key: qwen3.5-0.8b, params_b: 0.8, kind: dense}
+  - {key: qwen3.5-2b,   params_b: 2.0, kind: dense}
+  - {key: qwen3.5-4b,   params_b: 4.0, kind: dense}
+  - {key: qwen3.5-9b,   params_b: 9.0, kind: dense}
+  - {key: qwen3.5-27b,  params_b: 27.0, kind: dense}
+
+target_models:
+  - {key: qwen3.5-35b-a3b, params_b: 35.0, active_b: 3.0, kind: moe}
+  - {key: qwen3.5-27b,     params_b: 27.0, kind: dense}
+  - {key: qwen3.6-35b-a3b, params_b: 35.0, active_b: 3.4, kind: moe}
+
+domains:
+  - {name: math500,  role: in-domain,  source: HuggingFaceH4/MATH-500}
+  - {name: gsm8k,    role: in-domain,  source: opencompass/gsm8k}
+  - {name: humaneval,role: code,       source: opencompass/humaneval}
+  - {name: wikitext, role: ood-prose,  source: Salesforce/wikitext}
+  - {name: mtbench,  role: ood-chat,   source: lmsys/mt_bench_human_judgments}
+  - {name: nq,       role: ood-qa,     source: google-research-datasets/natural_questions}

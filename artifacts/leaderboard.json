@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2",
+  "release": "v0.1.0",
+  "generated": "2026-11-09",
+  "notes": "The public leaderboard is generated from the study claim/evidence registry. The v0.1.0 snapshot ships the S01 draft; per-cell rows will be added with the benchmark study.",
+  "columns": [
+    "study_id",
+    "claim_id",
+    "layer",
+    "status",
+    "public_artifact",
+    "doi"
+  ],
+  "entries": []
+}

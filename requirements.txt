@@ -1,0 +1,22 @@
+# Core (already installed on the 8xA100 machine)
+torch>=2.13
+transformers>=5.15
+accelerate>=1.15
+lm_eval>=0.4.13
+modelscope>=1.39
+safetensors>=0.8
+scipy>=1.18
+matplotlib>=3.8
+pandas>=3.0
+pyarrow>=26.0
+
+# Training stack (27B ZeRO-3).  flash-linear-attention supplies the Triton
+# chunked gated-delta-rule kernel; without it transformers falls back to a
+# launch-bound pure-torch loop (~8x slower on 0.8B).
+deepspeed>=0.19.9
+flash-linear-attention>=0.6.0
+triton>=3.7
+
+# Optional inference engines (install separately; Qwen3.5 needs recent builds)
+# vllm
+# sglang
