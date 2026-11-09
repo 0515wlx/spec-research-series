@@ -6,6 +6,9 @@ in the private lab repository.
 
 ## [0.1.0] - 2026-11-09
 
+Version DOI: [10.5281/zenodo.24084215](https://doi.org/10.5281/zenodo.24084215)
+Concept DOI: [10.5281/zenodo.24084214](https://doi.org/10.5281/zenodo.24084214)
+
 ### Added
 
 - Initial public series release.

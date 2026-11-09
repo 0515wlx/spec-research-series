@@ -2,6 +2,8 @@
   "schema_version": "0.2",
   "release": "v0.1.0",
   "generated": "2026-11-09",
+  "doi": "10.5281/zenodo.24084215",
+  "concept_doi": "10.5281/zenodo.24084214",
   "series": "series/series.yaml",
   "studies": [
     {

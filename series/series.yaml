@@ -4,6 +4,7 @@ series:
     floor comes from, which compression operators clear it, and what the measured
     serving cost actually is.'
   updated: 2026-11-09
+  concept_doi: 10.5281/zenodo.24084214
   status_legend:
     preparation: Scope and claims are still being established.
     drafting: Core claim is closed; manuscript is in progress.
@@ -20,6 +21,7 @@ studies:
   draft: series/s01-rejection-no-go/draft.pdf
   summary: series/s01-rejection-no-go/README.md
   claims: series/s01-rejection-no-go/claims.md
+  doi: 10.5281/zenodo.24084215
 - id: S02
   slug: s02-cost-layer
   title: Measured Cost of Post-Hoc FFN Width Deletion
@@ -29,6 +31,7 @@ studies:
   draft: null
   summary: series/s02-cost-layer/README.md
   claims: series/s02-cost-layer/claims.md
+  doi: null
 - id: S03
   slug: s03-mechanism-screen
   title: Decision-Boundary Mechanism and Margin-Mass Screening
@@ -38,6 +41,7 @@ studies:
   draft: null
   summary: series/s03-mechanism-screen/README.md
   claims: series/s03-mechanism-screen/claims.md
+  doi: null
 - id: S04
   slug: s04-positive-operators
   title: Positive Operators, Adaptation, and Matched-Latency Drafts
@@ -47,6 +51,7 @@ studies:
   draft: null
   summary: series/s04-positive-operators/README.md
   claims: series/s04-positive-operators/claims.md
+  doi: null
 - id: S05
   slug: s05-benchmark
   title: A Reproducible Acceptance and Cost Benchmark for Speculative Decoding
@@ -56,3 +61,4 @@ studies:
   draft: null
   summary: series/s05-benchmark/README.md
   claims: series/s05-benchmark/claims.md
+  doi: null

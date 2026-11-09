@@ -2,6 +2,8 @@
 
 **Status:** `drafting` · **Version:** 0.1.0 · **Updated:** 2026-11-09
 
+**DOI:** [10.5281/zenodo.24084215](https://doi.org/10.5281/zenodo.24084215)
+
 [Draft PDF](draft.pdf)
 
 ## Summary

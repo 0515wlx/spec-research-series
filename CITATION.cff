@@ -19,6 +19,13 @@ keywords:
   - FFN width deletion
   - LLM serving
   - reproducibility
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24084215"
+    description: "Zenodo version DOI for v0.1.0"
+  - type: doi
+    value: "10.5281/zenodo.24084214"
+    description: "Zenodo concept DOI for all versions"
 preferred-citation:
   type: generic
   title: "Rejection-Layer No-Go for Post-Hoc FFN Width Deletion"

@@ -1,5 +1,7 @@
 # Speculative Decoding Audit Series
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24084215.svg)](https://doi.org/10.5281/zenodo.24084215)
+
 A public series of reproducible audits on speculative decoding: where the acceptance floor comes
 from, which compression operators clear it, and what the measured serving cost actually is.
 
@@ -9,13 +11,13 @@ submission workflow are maintained privately.
 
 ## Studies
 
-| ID | Study | Status | Version | Draft |
-|---|---|---|---|---|
-| S01 | Rejection-layer no-go for post-hoc FFN width deletion | `drafting` | 0.1.0 | [PDF](series/s01-rejection-no-go/draft.pdf) |
-| S02 | Measured cost of post-hoc FFN width deletion | `preparation` | — | — |
-| S03 | Decision-boundary mechanism and margin-mass screening | `preparation` | — | — |
-| S04 | Positive operators, adaptation, matched-latency drafts | `preparation` | — | — |
-| S05 | Reproducible acceptance/cost benchmark and leaderboard | `preparation` | — | — |
+| ID | Study | Status | Version | Draft | DOI |
+|---|---|---|---|---|---|
+| S01 | Rejection-layer no-go for post-hoc FFN width deletion | `drafting` | 0.1.0 | [PDF](series/s01-rejection-no-go/draft.pdf) | [10.5281/zenodo.24084215](https://doi.org/10.5281/zenodo.24084215) |
+| S02 | Measured cost of post-hoc FFN width deletion | `preparation` | — | — | — |
+| S03 | Decision-boundary mechanism and margin-mass screening | `preparation` | — | — | — |
+| S04 | Positive operators, adaptation, matched-latency drafts | `preparation` | — | — | — |
+| S05 | Reproducible acceptance/cost benchmark and leaderboard | `preparation` | — | — | — |
 
 The full index and status vocabulary are in [`series/README.md`](series/README.md).
 
@@ -67,7 +69,13 @@ split is documented in `docs/REPO_ARCHITECTURE.md`.
 ## Citation
 
 If you use this code or the audit results, cite the series and the specific study. See
-`CITATION.cff`. The Zenodo DOI is assigned on the first public release.
+`CITATION.cff`.
+
+- Version DOI (`v0.1.0`): [10.5281/zenodo.24084215](https://doi.org/10.5281/zenodo.24084215)
+- Concept DOI (all versions): [10.5281/zenodo.24084214](https://doi.org/10.5281/zenodo.24084214)
+
+Use the version DOI when the claim depends on this exact snapshot; use the concept DOI when
+referring to the series across versions.
 
 ## License
 
