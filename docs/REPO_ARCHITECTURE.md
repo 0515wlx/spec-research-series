@@ -2,7 +2,7 @@
 
 This project separates the public display layer from the private research harness.
 
-## Public repository: `spec-research`
+## Public repository: `spec-research-series`
 
 The public repository is the **series display and artifact surface**:
 
